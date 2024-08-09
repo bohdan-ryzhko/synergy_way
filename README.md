@@ -7,27 +7,27 @@
 Open the Docker Desktop
 
 ```
-$ docker compose up
+docker compose up
 ```
 
 Open
 
 ```
-$ http://localhost:3000
+http://localhost:3000
 ```
 
 - ### Manual start
 
 ```
-$ yarn install
+yarn install
 ```
 
 ```
-$ yarn dev
+yarn dev
 ```
 
 Open
 
 ```
-$ http://localhost:8080/
+http://localhost:8080/
 ```
