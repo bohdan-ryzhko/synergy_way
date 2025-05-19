@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/synergy_way",
+  base: "/synergy_way/",
   plugins: [react()],
   preview: {
     port: 8080,
