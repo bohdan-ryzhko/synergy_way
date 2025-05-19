@@ -7,7 +7,7 @@ export const fetchCompanies = createAsyncThunk<Company[]>(
   async (_, { rejectWithValue }) => {
     try {
       const response: AxiosResponse<Company[]> = await axios.get(
-        "/companies-lookup.json"
+        `${import.meta.env.BASE_URL}companies-lookup.json`
       );
 
       return response.data;
